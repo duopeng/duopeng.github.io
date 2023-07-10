@@ -381,7 +381,7 @@ body.offcanvas {
 .colorlib-services,
 .colorlib-contact {
   padding-top: 4em;
-  padding-bottom: 2em;
+  padding-bottom: 4em;
   clear: both;
   width: 100%;
   display: block; }
@@ -395,7 +395,7 @@ body.offcanvas {
     .colorlib-services,
     .colorlib-contact {
       padding-top: 4em;
-      padding-bottom: 2em; } }
+      padding-bottom: 4em; } }
 
 .author-img {
   background-size: cover;
