@@ -60,6 +60,20 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
+    <style>
+        #subparagraph {
+            padding-left: 60px;
+			text-indent: -15px;
+
+        }
+        
+        .customParagraphStyle {
+            padding-left: 40px;
+			text-indent: -15px;
+			margin-top: 10px; /* Reduce space above the paragraph */
+   			margin-bottom: 10px; /* Reduce space below the paragraph */
+        }
+    </style>
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -161,12 +175,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 									<div class="about-desc">
 										<!-- <span class="heading-meta">About Us</span> -->
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p>Hi, my name is <strong>Duo Peng</strong>, I am a biologist with training in Genetics (B.S.), Bioinformatics (M.S.), Cellular Biology (Ph.D.), Medical Entomology (Postdoc) and machine learning (Harvard certificate). 
-										<p>Currently, I am working at the Chan Zuckerberg Biohub as a bioinformatics data scientist II.
+										<p>Hi, my name is <strong>Duo Peng</strong>, I am a scientist with training in Genetics (B.S.), Bioinformatics (M.S.) and Cellular Biology (Ph.D.). 
+										<p>Currently, I am a bioinformatician at the Chan Zuckerberg Biohub San Francisco. 
 										<p><strong>My research interests:</strong><br>
-											&nbsp;&nbsp;1. Democratizing Genome-Wide CRISPR Design: CRISPR-Informatics and computational tools for the community<br>
-											&nbsp;&nbsp;2. Decipher complex host-pathogen interactions using machine learning and multimodality data<br>
-											&nbsp;&nbsp;3. Data mine public bio-sequence repositories at the petabase-scale: virus discovery.<br>
+										<p class="customParagraphStyle">1. Data-driven modeling of host response to pathogens.</p>
+											<p id="subparagraph" class="customParagraphStyle">a. Species-wide data mining for paired host and viral gene expression, build machine learning models to resolve host gene signatures at different resolutions.</p>
+											<p id="subparagraph" class="customParagraphStyle">b. Technique platform-wide data mining of virus-centric pooled CRISPR screen datasets, building a unified understanding of the multifaceted effect of host genes on virus infection outcome. </p>
+										<p class="customParagraphStyle">2. Data-driven understanding of cellular responses.</p>
+										<p class="customParagraphStyle">3. Data-driven understanding of subcellular architecture.</p>
+										<p class="customParagraphStyle">4. Developing scalable computation pipelines to automate the biology-informed design of CRISPR experiments and the validation of genome editing outcomes.</p>
 									</div>
 								</div>
 							</div>
@@ -414,8 +431,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 					               <div class="timeline-label">
 					                  <h2><a href="#">Bioinformatics data scientist II</a> <br><span>2023.01-present</span></h2>
-					                  </p>1. Petabtype-scale data mining and virus discovery.<br>
-										  2. High dimensional data analysis of host-pathogen interaction using machine learning and multi-modality data. 
+					                  </p>1. Data-driven understanding of subcellular architecture (<a href="https://www.biorxiv.org/content/10.1101/2023.12.18.572249v1.full">preprint</a>).<br>
+									 	  2. Species-wide data mining for paired host and viral gene expression, build machine learning models to resolve host gene signatures at different resolutions.
+										  
 									</p>
 					               </div>
 					            </div>
@@ -430,8 +448,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 					               <div class="timeline-label">
 					                  <h2><a href="#">Bioinformatics data scientist I</a> <br><span>2021.11-2022.12</span></h2>
-					                  </p>1. ProtoSpaceJAM: Genome-wide CRISPR knock-in design at scale using biologically informed algorithms.<br>
-										  2. DeepGenotype: Calculate frequencies of protein-level mutations from deep-sequencing reads of CRISPR-edited cells.
+					                  </p>1. ProtoSpaceJAM: Genome-wide CRISPR knock-in design at scale using biologically informed algorithms (<a href="https://www.biorxiv.org/content/10.1101/2023.10.04.560793v1">preprint</a>, <a href="https://protospacejam.czbiohub.org/">webapp</a>).<br>
+										  2. DeepGenotype: Calculate frequencies of protein-level mutations from deep-sequencing reads of CRISPR-edited cells (<a href="https://github.com/czbiohub-sf/DeepGenotype">codebase</a>).
 									</p>
 					               </div>
 					            </div>
@@ -448,6 +466,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					                  <h2><a href="#">Postdoctoral Research Fellow at Harvard University</a> <br><span>2018.2-2021.10</span></h2>
 					                  </p>Reprodutive biology of <i>Anopheles</i> mosquito and its malaria vector capacity.<br>
 									  Mentor: Dr. Flaminia Catteruccia</p>
+									  <a href="https://www.nature.com/articles/s41586-022-04908-6">postdoc paper</a>
 
 					               </div>
 					            </div>
@@ -463,6 +482,9 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               	<h2><a href="#">Graduate research assistant at University of Georgia</a> <br><span>2012.8-2017.12</span></h2>
 					                  </p>Surface antigen variation of <i>Trypanosoma cruzi</i> (Chagas disease) and its underlying genetics mechanism.<br>
 									  Mentor: Dr. Rick L. Tarleton</p>
+									  <a href="https://journals.asm.org/doi/full/10.1128/mbio.02097-14">Ph.D. paper 1</a><br>
+									  <a href="hhttps://link.springer.com/article/10.1186/s12864-016-3037-z">Ph.D. paper 2</a><br>
+									  <a href="https://www.microbiologyresearch.org/content/journal/mgen/10.1099/mgen.0.000033">M.S. paper</a>
 					               </div>
 					            </div>
 					         </article>
@@ -475,7 +497,8 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 					               <div class="timeline-label">
 					               	<h2><a href="#">Research assistant at University of Georgia</a> <br><span>2010.08-2012.07</span></h2>
 					                  <p>Sucrose transporters of <i>Populus</i> trees.<br></p>
-									  Supervised by: Dr. Chung-Jui Tsai
+									  Supervised by: Dr. Chung-Jui Tsai<br>
+									  <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ak9VmogAAAAJ&citation_for_view=ak9VmogAAAAJ:iH-uZ7U-co4C">Research assistant paper (first author)</a>
 					               </div>
 					            </div>
 					         </article>
