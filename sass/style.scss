@@ -524,14 +524,14 @@ body {
 .colorlib-about,
 .colorlib-services,
 .colorlib-contact{
-	padding-top: 4em;
-	padding-bottom: 9em;
+	padding-top: 2.4em;
+	padding-bottom: 2.4em;
 	clear: both;
 	width: 100%;
 	display: block;
 	@media screen and(max-width: $screen-sm){
-		padding-top: 5em;
-		padding-bottom: 8em;
+		padding-top: 2.4em;
+		padding-bottom: 2.4em;
 	}
 }
 
